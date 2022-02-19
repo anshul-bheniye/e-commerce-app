@@ -1,0 +1,71 @@
+/* Nav Bar */
+.navigation li{
+    display: inline-block;
+}
+
+.links:hover{
+    font-size: inherit;
+    border-bottom: 0.125rem solid;
+}
+/* Nav Bar End */
+
+/* Category Section*/
+.category-img{
+    width: 15.625em;
+    height: 9.625rem;
+}
+
+/* Category Section End */
+
+/* Responsive Image */
+.responsive-img-height{
+    height: 85vh;
+}
+/* Responsive Image End */
+
+/* New Arrival Card */
+.custom-hor-card-width{
+    width: 42.688rem;
+}
+
+.card-shadow:hover{
+    box-shadow: 0.25rem 0.25rem 0.938rem rgba(12, 12, 12, 0.822);
+}
+
+.card-shadow:active{
+    box-shadow: 0.25rem 0.25rem 0.938rem rgba(12, 12, 12, 0.966);
+}
+/* New Arrival Card End */
+
+/* Media Query */
+
+@media screen and (max-width: 1468px){
+    .arrival-query-parent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .arrival-query-child{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .overlay-query-parent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .overlay-query-child{
+        margin-bottom: 1rem;
+    }
+}
+/* Media Query End */
