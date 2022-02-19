@@ -6,8 +6,120 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Headphone Store</title>
     <link rel="stylesheet" href="https://forui.netlify.app/fuistyles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- NAVIGATION START -->
+    <nav class="flex flex-row flex-space-between-row flex-wrap font-size-sm">
+        <div>
+            <a href="/index.html" class="links col-black">Headphone Store</a>
+        </div>
+        <ul class="navigation">
+            <li>
+                <a href="/" class="col-black links">Login</a>
+            </li>
+            <li>
+                <a href="/" class="col-black links"><i class="fas fa-heart"></i><span class="badge-num badge-icon-top-right">2</span></a>
+            </li>
+            <li>
+               <a href="/" class="col-black links"><i class="fas fa-shopping-cart"></i><span class="badge-num badge-icon-top-right">1</span>Cart</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- NAVIGATION END -->
+
+    <!-- MAIN START -->
+    <div>
+    <!-- this div main -->
+        <div class="flex flex-row flex-space-between-row flex-wrap margin-bottom-one overlay-query-parent">
+        <!-- div text overlay imag card 5-->
+           <div class="card-ver card-shadow flex flex-col card-position-rel category-img margin-bottom-one overlay-query-child">
+            <img src="./pictures/category-thumbnail.jpg"  class=" category-img">
+            <h2 class="card-text-overlay-center col-black">SONY</h2>
+           </div>
+
+           <div class="card-ver card-shadow flex flex-col card-position-rel category-img margin-bottom-one overlay-query-child">
+            <img src="./pictures/category-thumbnail.jpg"  class="category-img">
+            <h2 class="card-text-overlay-center col-black">SENNHEISER</h2>
+           </div>  
+
+           <div class="card-ver card-shadow flex flex-col card-position-rel category-img margin-bottom-one overlay-query-child">
+            <img src="./pictures/category-thumbnail.jpg"  class="category-img">
+            <h2 class="card-text-overlay-center col-black">APPLE</h2>
+           </div> 
+
+           <div class="card-ver card-shadow flex flex-col card-position-rel category-img margin-bottom-one overlay-query-child">
+            <img src="./pictures/category-thumbnail.jpg"  class="category-img">
+            <h2 class="card-text-overlay-center col-black">JBL</h2>
+           </div>
+
+           <div class="card-ver card-shadow flex flex-col card-position-rel category-img margin-bottom-one overlay-query-child">
+            <img src="./pictures/category-thumbnail.jpg"  class="category-img">
+            <h2 class="card-text-overlay-center col-black">BOSE</h2>
+           </div>
+        </div>
+
+        <div class="margin-bottom-one">
+        <!--this div has responsive image -->
+            <img src="./pictures/responsive-image.jpg" class="responsive-img responsive-img-height card-shadow">
+        </div>
+
+        <div>
+        <!-- new arrivals horizantal card -->
+            <div class="flex flex-row flex-space-between-row flex-wrap margin-bottom-one arrival-query-parent">
+                <div class="flex flex-wrap custom-hor-card-width card-shadow padding-sm arrival-query-child">
+                    <img src="./pictures/new-arrival-one.png" class="category-img">
+                        
+                        <div class="flex flex-col margin-left-one">
+                            <h2 class="font-weight-light">NEW ARRIVALS</h2>
+                                <div class="flex flex-col margin-auto">
+                                    <h2>SONY WH-XB910N</h2>
+                                    <p>EXTRA BASS sound and digital noise cancelling</p>   
+                                </div>
+                        </div>
+                </div>
+                <div class="flex flex-wrap custom-hor-card-width card-shadow padding-sm arrival-query-child">
+                    <img src="./pictures/new-arrival-two.jpeg" class="category-img">
+
+                    <div class="flex flex-col margin-left-one">
+                        <h2 class="font-weight-light">NEW ARRIVALS</h2>
+                            <div class="flex flex-col margin-auto">
+                                <h2>MOMENTUM Wireless</h2>
+                                <p>Active Noise Cancellation and Transparent Hearing</p>  
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MAIN END -->
+    
+    <!-- FOOTER START -->
+    <footer class="flex flex-col flex-center-col flex-wrap font-size padding-sm card-shadow">
+        <div>
+            <a href="/index.html" class="links col-black">Headphone Store Web App</a>
+        </div>
+        <div>
+            <p>Built By <a href="https://anshulbheniye-portfolio.netlify.app/" class="col-black links">Anshul Bheniye</a></p>
+        </div>
+        <ul class="navigation">
+            <li>
+                 <a href="https://github.com/anshul-bheniye" class="col-black links"><i class="fab fa-github"></i></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/anshul-bheniye/" class="col-black links">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/anshul_bheniye" class="col-black links">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <!-- FOOTER END -->
     <script src="https://forui.netlify.app/fuiapp.js"></script>
 </body>
 </html>
