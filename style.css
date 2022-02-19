@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+@import './styles/homepage.css';
+
+*{
+    font-family: 'Merriweather', serif;
+}
+
+:root{
+    --color-text: black;
+}
+
+.col-black{
+    color: var(--color-text);
+}
+
+/* Font weights */
+.font-weight-light{
+    font-weight: 300;
+}
+
+.font-weight-regular{
+    font-weight: 400;
+}
+
+.font-weight-bold{
+    font-weight: 700;
+}
+/* font weight end */
