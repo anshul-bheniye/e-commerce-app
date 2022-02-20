@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing Page</title>
+    <link rel="stylesheet" href="https://forui.netlify.app/fuistyles.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+    <body>
+        <!-- NAVIGATION START -->
+        <nav class="flex flex-row flex-space-between-row flex-wrap font-size-sm">
+            <div>
+                <a href="/index.html" class="links col-black">Headphone Store</a>
+            </div>
+            <ul class="navigation">
+                <li>
+                    <a href="/" class="col-black links">Login</a>
+                </li>
+                <li>
+                    <a href="/" class="col-black links"><i class="fas fa-heart"></i><span class="badge-num badge-icon-top-right">2</span></a>
+                </li>
+                <li>
+                   <a href="/" class="col-black links"><i class="fas fa-shopping-cart"></i><span class="badge-num badge-icon-top-right">1</span>Cart</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- NAVIGATION END -->
+
+        <!-- GROUP OF FILTERS AND PRODUCTS -->
+        <div class="flex flex-row">
+            <!-- FILTER START -->
+                <div class="flex flex-col custom-size custom-border padding-sm sticky">
+                    <div class="flex flex-row flex-space-between-row margin-bottom-one">
+                        <p>
+                            Filters
+                        </p>
+        
+                        <p class="links">
+                            Clear
+                        </p>
+                    </div>
+
+                    <div  class="margin-bottom-one">
+                        <p>Sort By</p>
+                        <div>
+                            <div>
+                                <input type="radio" name="sort" id="radioSortTwo">
+                                <label for="radioSortTwo">Price &#8212; Low to High</label>
+                            </div>
+
+                            <div>
+                                <input type="radio" name="sort" id="radioSortOne">
+                                <label for="radioSortOne">Price &#8212; High to Low</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="margin-bottom-one">
+                        <p>
+                            Category
+                        </p>
+                        <div>
+                            <div>
+                                <input type="checkbox" id="checkOne">
+                                <label for="checkOne">SONY</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="checkTwo">
+                                <label for="checkTwo">SENNHEISER</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="checkThree">
+                                <label for="checkThree">APPLE</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="checkFour">
+                                <label for="checkFour">JBL</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="checkFive">
+                                <label for="checkFive">BOSE</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="margin-bottom-one">
+                        <p>Rating</p>
+                        <div>
+                            <div class="flex flex-col flex-center-col">
+                                <div>
+                                    <span>3</span>
+                                </div>
+                                <div class="flex ">
+                                    <div>1</div>
+                                    <input type="range" min="1" max="5" value="2">
+                                    <div>5</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- FILTER END -->
+
+            <!-- PRODUCTS START -->
+                <div class="flex flex-row flex-space-between-row flex-wrap">
+                    <!-- Sony Card -->
+                    <div class="flex flex-col card-ver margin-one-r card-shadow">
+                        <img src="/pictures/new-arrival-one.png" alt="sony headphone" class="category-img">
+                        <div class="flex flex-col flex-center-col">
+                            <h2 class="margin-top-one">Sony</h2>
+                            <h3 class="margin-bottom-one">WH-XB910N</h3>
+                            <p class="margin-bottom-one">₹ 18,990.00</p>
+                        </div>
+                        
+                        <div class="flex flex-row flex-space-around-row margin-bottom-one">
+                            <button class="custom-btn-font-size"><i class="fas fa-shopping-cart"></i> Cart</button>
+                            <button class="custom-btn-font-size"><i class="fas fa-heart"></i> Wishlist</button>
+                        </div>
+                    </div>
+                    <!-- Sony Card End -->
+
+                    <!-- Sennheiser Card -->
+                    <div class="flex flex-col card-ver margin-one-r card-shadow">
+                        <img src="/pictures/new-arrival-two.jpeg" alt="sennheiser headphone" class="category-img">
+                        <div class="flex flex-col flex-center-col">
+                            <h2 class="margin-top-one">Sennheiser</h2>
+                            <h3 class="margin-bottom-one">Momentum</h3>
+                            <p class="margin-bottom-one">₹ 34,990.00</p>
+                        </div>
+                        
+                        <div class="flex flex-row flex-space-around-row margin-bottom-one">
+                            <button class="custom-btn-font-size"><i class="fas fa-shopping-cart"></i> Cart</button>
+                            <button class="custom-btn-font-size"><i class="fas fa-heart"></i> Wishlist</button>
+                        </div>
+                    </div>
+                    <!-- Sennheiser Card End -->
+                    
+                    <!-- Apple Card -->
+                    <div class="flex flex-col card-ver margin-one-r card-shadow">
+                        <img src="/pictures/apple-headphone.jpg" alt="apple headphone" class="category-img">
+                        <div class="flex flex-col flex-center-col">
+                            <h2 class="margin-top-one">Apple</h2>
+                            <h3 class="margin-bottom-one">AirPods Max</h3>
+                            <p class="margin-bottom-one">₹ 59,900.00</p>
+                        </div>
+                        
+                        <div class="flex flex-row flex-space-around-row margin-bottom-one">
+                            <button class="custom-btn-font-size"><i class="fas fa-shopping-cart"></i> Cart</button>
+                            <button class="custom-btn-font-size"><i class="fas fa-heart"></i> Wishlist</button>
+                        </div>
+                    </div>
+                    <!-- Apple Card End -->
+
+                    <!-- Jbl Card -->
+                    <div class="flex flex-col card-ver margin-one-r card-shadow">
+                        <img src="/pictures/jbl-headphone.jpg" alt="jbl headphone" class="category-img">
+                        <div class="flex flex-col flex-center-col">
+                            <h2 class="margin-top-one">JBL</h2>
+                            <h3 class="margin-bottom-one">660NC</h3>
+                            <p class="margin-bottom-one">₹ 14,999.00</p>
+                        </div>
+                        
+                        <div class="flex flex-row flex-space-around-row margin-bottom-one">
+                            <button class="custom-btn-font-size"><i class="fas fa-shopping-cart"></i> Cart</button>
+                            <button class="custom-btn-font-size"><i class="fas fa-heart"></i> Wishlist</button>
+                        </div>
+                    </div>
+                    <!-- Jbl Card End -->
+
+                    <!-- Bose Card -->
+                    <div class="flex flex-col card-ver margin-one-r card-shadow">
+                        <img src="/pictures/bose-headphone.jpg" alt="bose headphone" class="category-img">
+                        <div class="flex flex-col flex-center-col">
+                            <h2 class="margin-top-one">Bose</h2>
+                            <h3 class="margin-bottom-one">QuietComfort 35</h3>
+                            <p class="margin-bottom-one">₹ 29,363.00</p>
+                        </div>
+                        
+                        <div class="flex flex-row flex-space-around-row margin-bottom-one">
+                            <button class="custom-btn-font-size"><i class="fas fa-shopping-cart"></i> Cart</button>
+                            <button class="custom-btn-font-size"><i class="fas fa-heart"></i> Wishlist</button>
+                        </div>
+                    </div>
+                    <!-- Bose Card End -->
+
+                    <!-- Yamaha Card -->
+                    <div class="flex flex-col card-ver margin-one-r card-shadow">
+                        <img src="/pictures/yamaha-headphone.jpg" alt="yamaha-headphone" class="category-img">
+                        <div class="flex flex-col flex-center-col">
+                            <h2 class="margin-top-one">Yamaha</h2>
+                            <h3 class="margin-bottom-one">YH L700A</h3>
+                            <p class="margin-bottom-one">₹ 43,300</p>
+                        </div>
+                        
+                        <div class="flex flex-row flex-space-around-row margin-bottom-one">
+                            <button class="custom-btn-font-size"><i class="fas fa-shopping-cart"></i> Cart</button>
+                            <button class="custom-btn-font-size"><i class="fas fa-heart"></i> Wishlist</button>
+                        </div>
+                    </div>
+                    <!-- Yamaha Card End -->
+
+                    <!-- Sony Card -->
+                    <div class="flex flex-col card-ver margin-one-r card-shadow">
+                        <img src="/pictures/sony-two-headphone.jpg" alt="sony headphone" class="category-img">
+                        <div class="flex flex-col flex-center-col">
+                            <h2 class="margin-top-one">Sony</h2>
+                            <h3 class="margin-bottom-one">WH-CH510</h3>
+                            <p class="margin-bottom-one">₹ 2,990.00</p>
+                        </div>
+                        
+                        <div class="flex flex-row flex-space-around-row margin-bottom-one">
+                            <button class="custom-btn-font-size"><i class="fas fa-shopping-cart"></i> Cart</button>
+                            <button class="custom-btn-font-size"><i class="fas fa-heart"></i> Wishlist</button>
+                        </div>
+                    </div>
+                    <!-- Sony Card End -->
+                </div>
+            <!-- PRODUCTS END -->
+        </div>
+        <!-- GROUP OF FILTERS AND  PRODUCTS END -->
+
+        <!-- FOOTER -->
+        <footer class="flex flex-col flex-center-col flex-wrap font-size padding-sm card-shadow">
+            <div>
+                <a href="/index.html" class="links col-black">Headphone Store Web App</a>
+            </div>
+            <div>
+                <p>Built By <a href="https://anshulbheniye-portfolio.netlify.app/" class="col-black links">Anshul Bheniye</a></p>
+            </div>
+            <ul class="navigation">
+                <li>
+                     <a href="https://github.com/anshul-bheniye" class="col-black links"><i class="fab fa-github"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/anshul-bheniye/" class="col-black links">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/anshul_bheniye" class="col-black links">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        <!-- FOOTER END -->
+    </body>
+</html>
