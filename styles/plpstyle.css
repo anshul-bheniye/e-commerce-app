@@ -1,0 +1,17 @@
+
+/* Filter  */
+.custom-size{
+    width: 12.5rem;
+    height: 22rem;
+}
+
+.custom-border{
+    border-right: 0.188rem solid;
+}
+/* Filter End */
+
+/* Card */
+.custom-btn-font-size{
+    font-size: medium;
+}
+/* Card End */
