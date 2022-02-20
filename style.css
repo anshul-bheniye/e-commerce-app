@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
 @import './styles/homepage.css';
+@import './styles/plpstyle.css';
 
 *{
     font-family: 'Merriweather', serif;
