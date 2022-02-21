@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://forui.netlify.app/fuistyles.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION START -->
+    <nav class="flex flex-row flex-space-between-row flex-wrap font-size-sm">
+        <div>
+            <a href="/index.html" class="links col-black">Headphone Store</a>
+        </div>
+        <ul class="navigation">
+            <li>
+                <a href="./login.html" class="col-black links">Login</a>
+            </li>
+            <li>
+                <a href="./pages/wishlist.html" class="col-black links"><i class="fas fa-heart"></i><span class="badge-num badge-icon-top-right">0</span></a>
+            </li>
+            <li>
+               <a href="./pages/cart.html" class="col-black links"><i class="fas fa-shopping-cart"></i><span class="badge-num badge-icon-top-right">0</span>Cart</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- NAVIGATION END -->
+
+     <!-- SIGN UP -->
+        <div class="flex flex-col flex-center-col margin-top-one card-ver margin-auto card-shadow">
+            <h2 class="margin-bottom-one">Login</h2>
+
+            <div class="margin-bottom-one">
+                <label for="mail">Email &#58;</label>
+                <input type="email" id="mail" placeholder="yourName@mail.com">
+            </div>
+
+            <div class="margin-bottom-one">
+                <label for="pswd">Password &#58;</label>
+                <input type="password" id="pswd" placeholder="******">
+            </div>
+
+            <div class="flex flex-row flex-space-between-row margin-bottom-one">
+                <div>
+                    <input type="checkbox" id="checks">
+                    <label for="checks">Remember Me</label>
+                </div>
+                <div class="margin-left-one">
+                    <a href="#">Forgot your password?</a>
+                </div>
+            </div>
+
+            <button class="custom-btn-font-size margin-bottom-one">Login</button>
+
+            <a href="./signUp.html" class="links col-black margin-bottom-one">Create New Account <i class="fas fa-greater-than"></i></a>
+        </div>
+     <!-- SIGN UP END -->
+</body>
+</html>
