@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Cart</title>
+    <link rel="stylesheet" href="https://forui.netlify.app/fuistyles.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <!-- NAVIGATION START -->
+    <nav class="flex flex-row flex-space-between-row flex-wrap font-size-sm">
+        <div>
+            <a href="/index.html" class="links col-black">Headphone Store</a>
+        </div>
+        <ul class="navigation">
+            <li>
+                <a href="/" class="col-black links">Login</a>
+            </li>
+            <li>
+                <a href="/" class="col-black links"><i class="fas fa-heart"></i><span class="badge-num badge-icon-top-right">2</span></a>
+            </li>
+            <li>
+               <a href="./cart.html" class="col-black links"><i class="fas fa-shopping-cart"></i><span class="badge-num badge-icon-top-right">1</span>Cart</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- NAVIGATION END -->
+
+    <!-- CART -->
+        <div id="alert-hide">
+            <h2 class="padding-sm">Sony WH-HB900N</h2>
+        <div class="flex flex-row flex-space-around-row">
+            <div class="flex flex-row flex-space-around-row padding-sm">
+                <img src="../pictures/new-arrival-one.png" class="category-img">
+                <div class="flex flex-col margin-left-one custom-size">
+                    <h3 class="margin-bottom-one">WH-HB900N</h3>
+                    <div class="flex flex-row flex-space-between-row margin-bottom-one">
+                        <p>12,990.00</p>
+                        <s>18,990.00</s>
+                    </div>
+                    <div class="flex flex-row flex-space-between-row">
+                        <p class="margin-bottom-one">Quantity: </p>
+                        <p>01</p>
+                    </div>
+                    <button class="margin-bottom-one custom-btn-font-size" id="alert-close">Remove from Cart</button>
+                    <button><a href="../pages/wishlist.html" class="custom-btn-font-size custom-link col-black">Move To WishList</a></button>
+                </div>
+            </div>
+
+            <!-- Check Out Card -->
+            <div class="flex flex-col padding-sm custom-size">
+                <h2>CheckOut</h2>
+                <div class="flex flex-row flex-space-between-row margin-bottom-one">
+                    <p>Item: </p>
+                    <p>01</p>
+                </div>
+                <div  class="flex flex-row flex-space-between-row margin-bottom-one">
+                    <p>Price: </p>
+                    <p class="margin-left-one">₹ 12,990.00</p>
+                </div>
+                <div  class="flex flex-row flex-space-between-row margin-bottom-one">
+                    <p>Charges</p>
+                    <p>₹ <s>500</s></p>
+                </div>
+                <div class="flex flex-row flex-space-between-row margin-bottom-one">
+                    <p>Total</p>
+                    <p>₹ 12,990.00</p>
+                </div>
+                <div  class="flex flex-row flex-space-between-row margin-bottom-one">
+                    <p>You Save</p>
+                    <p>₹ 6000</p>
+                </div>
+                <div>
+                    <h2 class="margin-bottom-one">Free Shipping!</h2>
+                    <p class="margin-bottom-one">COD Not Available</p>
+                </div>
+                <button class="custom-btn-font-size">Place Order</button>
+            </div>
+            <!-- Check Out Card End -->
+        </div>
+    <!-- CART END -->
+        </div>
+
+    <script src="https://forui.netlify.app/fuiapp.js"></script>
+</body>
+</html>
